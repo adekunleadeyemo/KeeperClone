@@ -15,11 +15,12 @@ function App() {
   }
 
   function deleteNote(id) {
-    setNotes(prevNotes => {
-      return prevNotes.filter((noteItem, index) => {
-        return index !== id;
-      });
-    });
+    // setNotes(prevNotes => {
+    //   return prevNotes.filter((noteItem, index) => {
+    //     return index !== id;
+    //   });
+    // });
+    console.log(id)
   }
 
   return (
